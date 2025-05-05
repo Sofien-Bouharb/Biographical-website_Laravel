@@ -11,9 +11,10 @@ class layout extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public $title;
+    public function __construct($title = null)
     {
-        //
+        $this->title = $title;
     }
 
     /**
@@ -23,4 +24,9 @@ class layout extends Component
     {
         return view('layout');
     }
+
+
+ 
+
+
 }
