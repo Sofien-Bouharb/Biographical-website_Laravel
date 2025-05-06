@@ -13,6 +13,9 @@
         .navbar-dark .navbar-nav .nav-link:focus {
       color: #e6e6e6;
     }
+    html {
+    scroll-behavior: smooth;
+  }
 
     </style>
 </head>
@@ -48,7 +51,7 @@
               </li>
     
               <li class="nav-item"><a class="nav-link" href="#">Médias</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ url('/#contact') }}">Contacts</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Connexion</a></li>
             </ul>
           </div>
