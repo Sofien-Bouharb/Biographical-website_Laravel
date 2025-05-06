@@ -23,7 +23,13 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
           <!-- Website Name -->
-          <a class="navbar-brand" href="{{url('/')}}">Mon Site</a>
+          <a class="navbar-brand" href="/">
+            <img src="{{ asset('images/logoSouissi.png') }}"
+                 alt="souissiLogo"
+                 width="60"
+                 class="rounded-circle"
+                 style="display:inline-block; vertical-align:middle;">
+          </a>
     
           <!-- Toggler Button for Mobile -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

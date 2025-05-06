@@ -3,7 +3,7 @@
   
       <!-- Hero Section -->
       <div class="text-center mb-5">
-        <img src="{{ asset('images/blank-profile-picture-coming-soon.png') }}" class="img-fluid rounded shadow mb-4" style="max-height: 400px;" alt="Couple de professeurs">
+        <img src="{{ asset('images/blank-profile-picture-coming-soon.png') }}" class="img-fluid rounded shadow mb-4 " style="max-height: 400px;" alt="Couple de professeurs">
         <h1 class="display-5 fw-bold">Bienvenue dans notre univers éducatif</h1>
         <p class="lead">Deux enseignants passionnés au service des apprenants de tous âges.</p>
         <a href="{{ route('portfolio') }}" class="btn btn-primary mt-3">Découvrir notre histoire</a>
@@ -69,7 +69,7 @@
       <div class="text-center my-5">
         <h2>Prêt(e) à progresser avec nous ?</h2>
         <p class="lead">Contactez-nous ou explorez nos services pour commencer l'aventure.</p>
-        <a href="{{ url('/contact') }}" class="btn btn-outline-primary me-2">Nous contacter</a>
+        <a href="{{ url('/#contact') }}" class="btn btn-outline-primary me-2">Nous contacter</a>
         <a href="{{ url('/#services') }}" class="btn btn-primary">Voir les services</a>
       </div>
   
